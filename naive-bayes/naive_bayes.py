@@ -25,9 +25,9 @@ def pxi_y(lista, palavra):
             words = words + 1
     prob = words/float(len(lista))
     if(prob==0):
-        return 0.01
+        return 0.1
     elif(prob==1):
-        return 0.09
+        return 0.9
     return prob
     
 def py(smntL, sentiment):
